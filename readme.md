@@ -77,7 +77,7 @@ longer strings, up to 16KB | TEXT |
 date, no time| DATE |
 date with time | TIMESTAMP |
 
-
+ 
 Add the missing `CREATE TABLE` statements to the included `create_schema.sql`. You can run this file of SQL commands on your local postgres sever like so:
 
 ```
@@ -144,7 +144,7 @@ Before we load some seed data, login to the postgres server with `psql` and insp
 $ psql school
 psql (9.6.1, server 9.4.5)
 Type "help" for help.
-
+q
 school=# \d students;
                                    Table "public.students"
    Column   |          Type          |                       Modifiers
